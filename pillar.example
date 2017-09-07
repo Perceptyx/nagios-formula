@@ -151,6 +151,7 @@ nagios:
       server: nagios-nrpe
       service: nrpe
       user: nagios
+      install_recommends: False # This will only work in Debian Family systems. See https://github.com/saltstack-formulas/nagios-formula/issues/23
 
 # This pillar data targetted at minion(s) and at the Nagios host, both.
   checks:
