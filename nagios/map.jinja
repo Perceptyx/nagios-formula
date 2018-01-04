@@ -145,7 +145,7 @@
         'group': 'nagios',
         'plugin': 'nagios-plugins',
         'plugin_dir': '/usr/local/libexec/nagios',
-        'server': 'nrpe-ssl',
+        'server': 'nrpe3',
         'service': 'nrpe3',
     },
 }, merge=salt['pillar.get']('nagios:lookup:nrpe')) %}
